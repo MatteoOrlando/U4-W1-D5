@@ -6,7 +6,7 @@ public abstract class ElementoMultimediale {
     public String titolo;
 
     //durata contenuto espressa in secondi
-    public int durata;
+    protected int durata;
 
 
     //creo il costruttore padre che assegnerá i parametri ai child

@@ -3,14 +3,16 @@ package part_1_player;
 public  class Video extends ElementoMultimediale {
 
     //costruttore
-    public Video(String titolo, int durata) {
+    //public Video (String titolo, int durata) {
+    //    super(titolo, durata);
+    //}
 
-        //ereditarietá dei parametri
+    public Video(java.lang.String titolo, int durata) {
         super(titolo, durata);
     }
 
     @Override
     public void play(){
-        System.out.printIn("Riproduzione video: " + titolo);
+        System.out.println("Riproduzione video: " + titolo);
     }
 }
